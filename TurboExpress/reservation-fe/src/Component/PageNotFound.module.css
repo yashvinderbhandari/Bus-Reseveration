@@ -1,0 +1,31 @@
+/* PageNotFound.module.css */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f9f9f9;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    animation: marquee 8s linear infinite; /* Add the marquee animation */
+  }
+  
+  @keyframes marquee {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  

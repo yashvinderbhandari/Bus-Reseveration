@@ -1,0 +1,36 @@
+/* EditBus.module.css */
+
+.editbusContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.editbusForm {
+    width: 400px;
+}
+
+.editbusForm label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.editbusForm input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.editbusForm input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.editbusForm input[type="submit"]:hover {
+    background-color: #0056b3;
+}

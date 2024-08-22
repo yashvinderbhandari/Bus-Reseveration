@@ -1,0 +1,120 @@
+body {
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* Ensure the body takes up the full height of the viewport */
+  /* margin-top: 60px; Remove default margin */
+}
+
+.adminsign {
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center horizontally */
+  justify-content: center; /* Center vertically */
+  width: 100%; /* Increased width */
+  max-width: 800px; /* Set a maximum width */
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 2em;
+  background-color: #171717;
+  border-radius: 25px;
+  transition: .4s ease-in-out;
+  align-items: center; /* Center horizontally */
+  justify-content: center; /* Center vertically */
+  width: 100%;
+}
+
+.form:hover {
+  transform: scale(1.05);
+  border: 1px solid black;
+}
+
+.heading {
+  text-align: center;
+  margin: 2em;
+  color: #fff;
+  font-size: 1.2em;
+}
+
+.label {
+  color: #d3d3d3;
+  font-size: 1em;
+  margin-right: 1em; /* Add margin to the right */
+  width: 150px; /* Set a fixed width for the labels */
+  text-align: right; /* Align the text to the right */
+}
+
+.field {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5em;
+  border-radius: 25px;
+  padding: 0.3em; /* Decreased padding to reduce height */
+  border: none;
+  outline: none;
+  color: #fff;
+  background-color: #171717;
+  box-shadow: inset 2px 5px 10px rgb(5, 5, 5);
+  width: 100%;
+  max-width: 600px; /* Set a maximum width for the input box */
+}
+
+.inputField {
+  background: none;
+  border: none;
+  outline: none;
+  width: 100%; /* Ensure the input field fits within the field */
+  color: #d3d3d3;
+  padding: 0.2em 0;
+  font-size: 1em;
+}
+
+.button {
+  position: relative;
+  margin-top: 1em;
+  padding: 10px 20px;
+  border-radius: 7px;
+  border: 1px solid rgb(61, 106, 255);
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 2px;
+  background: transparent;
+  color: #fff;
+  overflow: hidden;
+  box-shadow: 0 0 0 0 transparent;
+  transition: all 0.2s ease-in;
+}
+
+.button:hover {
+  background: rgb(61, 106, 255);
+  box-shadow: 0 0 30px 5px rgba(0, 142, 236, 0.815);
+  transition: all 0.2s ease-out;
+}
+
+.button:active {
+  box-shadow: 0 0 0 0 transparent;
+  transition: box-shadow 0.2s ease-in;
+}
+
+.loginText {
+  color: #fff;
+  margin-top: 1em;
+}
+
+.loginLink {
+  color: #61a0ff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.loginLink:hover {
+  text-decoration: underline;
+}

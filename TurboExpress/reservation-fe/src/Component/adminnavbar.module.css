@@ -1,0 +1,28 @@
+/* Global styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Navbar styles */
+.navbar {
+  width: 100%;
+  top: 0; 
+  left: 0;
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ff0000;
+  color: #fff;
+  padding: 10px 20px;
+}
+
+.logo h1 {
+  padding: 10px;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+

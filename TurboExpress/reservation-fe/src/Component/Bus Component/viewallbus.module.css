@@ -1,0 +1,50 @@
+.viewbus {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #f8f9fa;
+  }
+  
+  .busdetails {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 1200px;
+    transition: transform 0.3s;
+  }
+  
+  .busdetails:hover {
+    transform: scale(1.05);
+  }
+  
+  .businfo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    flex: 1;
+    flex-wrap: wrap;
+  }
+  
+  .businfo h3, .businfo i, .businfo p, .businfo span {
+    margin: 0;
+    color: #343a40;
+  }
+  
+  .buttonContainer {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .button {
+    flex: 1;
+  }
+  
